@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+@layer base {
+
+    /*@import "tailwindcss/base";*/
+    body {
+        @apply text-justify;
+    }
+}
+
+/* additional styles */
+@layer components {
+    /*@import "tailwindcss/components";*/
+}
+
+/* using x-cloak to prevent flash of unstyled content */
+[x-cloak] {
+    display: none;
+}
